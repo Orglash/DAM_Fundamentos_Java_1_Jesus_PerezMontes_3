@@ -12,5 +12,7 @@ public class Main {
         //Utilizamos r para resolver la longitud y la asignamos a una variable para imprimir el resultado en pantalla.
         double longitud= Math.PI * (2*r);
         System.out.printf("la longitud de la circunferencia resultante con radio %fcm es igual a:  %fcm\n", r, longitud);
+        //Cerramos el scanner.
+        radio.close();
     }
 }
